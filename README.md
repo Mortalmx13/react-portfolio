@@ -13,6 +13,6 @@ This assignmant was designed to make a portfolio where there is a task to show t
 ![Portfolio](./React-App%20image.png)
 
 ## Resources
-- [Live Site](https://mortalmx13.github.io/portfolio/)
+- [Live Site](https://mortalmx13.github.io/react-portfolio/)
 
 - [Respository](https://github.com/Mortalmx13/react-portfolio)

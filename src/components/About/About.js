@@ -7,12 +7,12 @@ function About() {
             <h2 class="top-title">Charles Young</h2>
             <hr></hr>
             <div>
+                {/* sends in image to about page */}
                 <img src={pic} class="mb-5" id="avatar"  alt="Charles Young" />
 
                 <p>
-                I am a newly educated programmer. I started programing 2 years ago first starting in C+ and moved to differnt languages such as HTML, CSS and JS
+                I am a newly educated programmer. I started programing 2 years ago, first starting in C++ and moved to different languages such as HTML, CSS and Javascript.
                 </p>
-     
                 
             </div>
         </section>

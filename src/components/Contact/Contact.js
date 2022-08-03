@@ -8,9 +8,10 @@ function ContactForm() {
     const [errorMessage, setErrorMessage] = useState('');
 
     const { name, email, message } = formState;
-
+//gets the users input with all ther information
     function handleChange(e) {
         if (e.target.name === 'email') {
+            //checks if it follows the helpers rule  
             const isValid = validateEmail(e.target.value);
 
             if (!isValid) {
@@ -35,7 +36,7 @@ function ContactForm() {
     function handleSubmit(e) {
         e.preventDefault();
     }
-
+//sets up the page 
     return (
         <section className="container">
             <h2 data-testid='h1tag' className="top-title">Contact Form</h2>

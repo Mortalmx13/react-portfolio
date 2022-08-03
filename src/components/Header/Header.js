@@ -14,7 +14,7 @@ class Header extends Component {
         <header>
           <Navigation />
         </header>
-
+{/* differnt routes to the different pages */}
         <div className="content">
           <Route exact path="/" render={() => <Redirect to="/about" />} />
           <Route path="/about" component={About} />

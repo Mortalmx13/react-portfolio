@@ -12,8 +12,8 @@ function ProjectCards(props) {
         <div className="content">
               <p className="card-title">{props.name}</p>
               <p class="proj-icons-container">
-              <a href={props.github}><img class="project-icon" src="https://img.icons8.com/fluent/48/000000/github.png" alt="GitHub Repo" /></a> 
-              <a href={props.deploy}><img class="project-icon" src="https://img.icons8.com/fluent/48/000000/domain.png" alt="Live Application" /></a> 
+              <a href={props.github}><img class="project-icon" src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU"className="icon" alt="GitHub Repo" /></a> 
+              <a href={props.deploy}><img class="project-icon" src="https://cdn-icons-png.flaticon.com/512/892/892692.png" className="icon" alt="Live Application" /></a> 
        
              
              </p>

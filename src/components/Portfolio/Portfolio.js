@@ -15,7 +15,7 @@ function Portfolio () {
             <h2 className="top-title">My Portfolio</h2>
             <hr></hr>
           </div>
-
+{/* bring in image/name/github/live link to all the projects in the portfolio.json file */}
           <Wrapper id="card-data">
             {portfolio.map((project) => (
               <ProjectCards key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} />
